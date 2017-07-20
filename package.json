@@ -1,7 +1,7 @@
 {
   "name": "producthuntapi",
   "version": "1.0.0",
-  "description": "Lists of users based on things they have upvoted and things that they follow.",
+  "description": "Lists of users based on things they have upvoted.",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
@@ -20,7 +20,9 @@
     "producthunt": "^0.2.0"
   },
   "devDependencies": {
+    "async": "^2.5.0",
     "js-yaml": "^3.9.0",
-    "limiter": "^1.1.2"
+    "limiter": "^1.1.2",
+    "mongoose-to-csv": "^0.1.1"
   }
 }
