@@ -156,7 +156,7 @@ function getUsers (upvoters, cb) {
               console.error(`Server returns invalid data, please, restart script: `, err);
               return eachCb(err);
             }
-            console.log(response.headers['x-rate-limit-remaining']);
+
             const userForModel = {
               FullName: requestedUser.name,
               ProductHuntProfileUrl: requestedUser.profile_url,
