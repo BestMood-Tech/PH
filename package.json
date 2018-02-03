@@ -21,6 +21,7 @@
   },
   "devDependencies": {
     "async": "^2.5.0",
+    "csv-parser": "^1.11.0",
     "js-yaml": "^3.9.0",
     "limiter": "^1.1.2",
     "mongoose-to-csv": "^0.1.1"
